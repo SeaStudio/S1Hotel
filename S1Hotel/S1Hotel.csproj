@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE6DDCD7-4C29-45A5-B20C-497FBB7EE066}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>S1Hotel</RootNamespace>
+    <AssemblyName>S1Hotel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin">
+      <HintPath>..\..\CSkin 4.0\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetSkin">
+      <HintPath>H:\项目\VS2005\破解版\DotNetSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\CH-作业\三层架构\packages\QRCoder.1.4.1\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\..\CH-作业\三层架构\packages\ZXing.Net.0.16.6\lib\net45\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\..\CH-作业\三层架构\packages\ZXing.Net.0.16.6\lib\net45\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activation.Designer.cs">
+      <DependentUpon>Activation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddARoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddARoom.Designer.cs">
+      <DependentUpon>AddARoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomers.Designer.cs">
+      <DependentUpon>AddCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BulkGuestOpening.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BulkGuestOpening.Designer.cs">
+      <DependentUpon>BulkGuestOpening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessInquiries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusinessInquiries.Designer.cs">
+      <DependentUpon>BusinessInquiries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn.Designer.cs">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut.Designer.cs">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommodityAddition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommodityAddition.Designer.cs">
+      <DependentUpon>CommodityAddition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommodityManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommodityManagement.Designer.cs">
+      <DependentUpon>CommodityManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommodityModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommodityModification.Designer.cs">
+      <DependentUpon>CommodityModification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContinuedRoomcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContinuedRoomcs.Designer.cs">
+      <DependentUpon>ContinuedRoomcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerConsumption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerConsumption.Designer.cs">
+      <DependentUpon>CustomerConsumption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDeleting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDeleting.Designer.cs">
+      <DependentUpon>CustomerDeleting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerManagement.Designer.cs">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerModification.Designer.cs">
+      <DependentUpon>CustomerModification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerRecharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerRecharge.Designer.cs">
+      <DependentUpon>CustomerRecharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerTypeDeletion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerTypeDeletion.Designer.cs">
+      <DependentUpon>CustomerTypeDeletion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="DeleteInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteInformation.Designer.cs">
+      <DependentUpon>DeleteInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailedInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailedInformation.Designer.cs">
+      <DependentUpon>DetailedInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsOfOccupancy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsOfOccupancy.Designer.cs">
+      <DependentUpon>DetailsOfOccupancy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAdditions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeAdditions.Designer.cs">
+      <DependentUpon>EmployeeAdditions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeManagement.Designer.cs">
+      <DependentUpon>EmployeeManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExchangeHouses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExchangeHouses.Designer.cs">
+      <DependentUpon>ExchangeHouses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expenditure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expenditure.Designer.cs">
+      <DependentUpon>Expenditure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LockScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LockScreen.Designer.cs">
+      <DependentUpon>LockScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredefinedModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredefinedModification.Designer.cs">
+      <DependentUpon>PredefinedModification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredeterminedManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredeterminedManagement.Designer.cs">
+      <DependentUpon>PredeterminedManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrepaidRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrepaidRoom.Designer.cs">
+      <DependentUpon>PrepaidRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remind.Designer.cs">
+      <DependentUpon>Remind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticalChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticalChart.Designer.cs">
+      <DependentUpon>StatisticalChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hook.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainInterface.Designer.cs">
+      <DependentUpon>MainInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyCustomerType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyCustomerType.Designer.cs">
+      <DependentUpon>ModifyCustomerType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyInformation.Designer.cs">
+      <DependentUpon>ModifyInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyRoomStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyRoomStatus.Designer.cs">
+      <DependentUpon>ModifyRoomStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductTypeAddition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductTypeAddition.Designer.cs">
+      <DependentUpon>ProductTypeAddition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseQuantity.Designer.cs">
+      <DependentUpon>PurchaseQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReviseThePrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReviseThePrice.Designer.cs">
+      <DependentUpon>ReviseThePrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomManagement.Designer.cs">
+      <DependentUpon>RoomManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSetup.Designer.cs">
+      <DependentUpon>SystemSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Win32.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activation.resx">
+      <DependentUpon>Activation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddARoom.resx">
+      <DependentUpon>AddARoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomers.resx">
+      <DependentUpon>AddCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BulkGuestOpening.resx">
+      <DependentUpon>BulkGuestOpening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusinessInquiries.resx">
+      <DependentUpon>BusinessInquiries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckIn.resx">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut.resx">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommodityAddition.resx">
+      <DependentUpon>CommodityAddition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommodityManagement.resx">
+      <DependentUpon>CommodityManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommodityModification.resx">
+      <DependentUpon>CommodityModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContinuedRoomcs.resx">
+      <DependentUpon>ContinuedRoomcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerConsumption.resx">
+      <DependentUpon>CustomerConsumption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDeleting.resx">
+      <DependentUpon>CustomerDeleting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerManagement.resx">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerModification.resx">
+      <DependentUpon>CustomerModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerRecharge.resx">
+      <DependentUpon>CustomerRecharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerTypeDeletion.resx">
+      <DependentUpon>CustomerTypeDeletion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteInformation.resx">
+      <DependentUpon>DeleteInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailedInformation.resx">
+      <DependentUpon>DetailedInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailsOfOccupancy.resx">
+      <DependentUpon>DetailsOfOccupancy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeAdditions.resx">
+      <DependentUpon>EmployeeAdditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeManagement.resx">
+      <DependentUpon>EmployeeManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExchangeHouses.resx">
+      <DependentUpon>ExchangeHouses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expenditure.resx">
+      <DependentUpon>Expenditure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LockScreen.resx">
+      <DependentUpon>LockScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredefinedModification.resx">
+      <DependentUpon>PredefinedModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredeterminedManagement.resx">
+      <DependentUpon>PredeterminedManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrepaidRoom.resx">
+      <DependentUpon>PrepaidRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remind.resx">
+      <DependentUpon>Remind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticalChart.resx">
+      <DependentUpon>StatisticalChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInterface.resx">
+      <DependentUpon>MainInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyCustomerType.resx">
+      <DependentUpon>ModifyCustomerType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyInformation.resx">
+      <DependentUpon>ModifyInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyRoomStatus.resx">
+      <DependentUpon>ModifyRoomStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductTypeAddition.resx">
+      <DependentUpon>ProductTypeAddition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PurchaseQuantity.resx">
+      <DependentUpon>PurchaseQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviseThePrice.resx">
+      <DependentUpon>ReviseThePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomManagement.resx">
+      <DependentUpon>RoomManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSetup.resx">
+      <DependentUpon>SystemSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\047.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\049.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\053.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\054.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\055.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\056.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\057.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\058.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\059.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\060.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\061.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\062.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\063.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\064.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_grey600_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tobarCollect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tobarReward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tobarReward1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2819%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2814%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2812%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2819%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %284%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2811%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2829%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2827%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2828%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %284%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %282%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2812%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2822%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2826%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %286%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2821%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2820%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2828%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2822%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2827%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2830%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2819%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2831%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2832%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2840%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\789bc40f-5478-4c55-af80-c8699e0cff1f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1268252.gif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_group %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_group %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2828%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下载 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下载 %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2833%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2821%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %284%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2841%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChMkJ13L2lKIIIEvAAUtaQL3yZAAAvNxwFiCzsABS2B891.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChMkJ13L2leIAf0xAAOqSAmQowkAAvNxwJGCrcAA6pg593.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3018761424_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2836%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %2837%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
