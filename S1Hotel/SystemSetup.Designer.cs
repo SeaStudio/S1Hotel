@@ -126,7 +126,7 @@
             this.btHuaiYuan.Name = "btHuaiYuan";
             this.btHuaiYuan.NormlBack = null;
             this.btHuaiYuan.Size = new System.Drawing.Size(117, 23);
-            this.btHuaiYuan.TabIndex = 2;
+            this.btHuaiYuan.TabIndex = 5;
             this.btHuaiYuan.Text = "还    原";
             this.btHuaiYuan.UseVisualStyleBackColor = false;
             this.btHuaiYuan.Click += new System.EventHandler(this.skinButton3_Click);
@@ -144,7 +144,7 @@
             this.btBeiFen.Name = "btBeiFen";
             this.btBeiFen.NormlBack = null;
             this.btBeiFen.Size = new System.Drawing.Size(117, 23);
-            this.btBeiFen.TabIndex = 2;
+            this.btBeiFen.TabIndex = 4;
             this.btBeiFen.Text = "备     份";
             this.btBeiFen.UseVisualStyleBackColor = false;
             this.btBeiFen.Click += new System.EventHandler(this.btBeiFen_Click);
@@ -161,7 +161,7 @@
             this.btXuanZeDiZhi.Name = "btXuanZeDiZhi";
             this.btXuanZeDiZhi.NormlBack = null;
             this.btXuanZeDiZhi.Size = new System.Drawing.Size(117, 23);
-            this.btXuanZeDiZhi.TabIndex = 2;
+            this.btXuanZeDiZhi.TabIndex = 3;
             this.btXuanZeDiZhi.Text = "选 择 地 址";
             this.btXuanZeDiZhi.UseVisualStyleBackColor = false;
             this.btXuanZeDiZhi.Click += new System.EventHandler(this.skinButton1_Click);
@@ -172,7 +172,7 @@
             this.tbLuJing.Location = new System.Drawing.Point(90, 31);
             this.tbLuJing.Name = "tbLuJing";
             this.tbLuJing.Size = new System.Drawing.Size(243, 26);
-            this.tbLuJing.TabIndex = 1;
+            this.tbLuJing.TabIndex = 2;
             this.tbLuJing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbLuJing.WaterText = "";
             // 
@@ -214,7 +214,7 @@
             this.skinButton4.Name = "skinButton4";
             this.skinButton4.NormlBack = null;
             this.skinButton4.Size = new System.Drawing.Size(97, 29);
-            this.skinButton4.TabIndex = 2;
+            this.skinButton4.TabIndex = 6;
             this.skinButton4.Text = "保    存";
             this.skinButton4.UseVisualStyleBackColor = false;
             this.skinButton4.Click += new System.EventHandler(this.skinButton4_Click);
@@ -231,7 +231,7 @@
             this.skinButton5.Name = "skinButton5";
             this.skinButton5.NormlBack = null;
             this.skinButton5.Size = new System.Drawing.Size(93, 29);
-            this.skinButton5.TabIndex = 2;
+            this.skinButton5.TabIndex = 7;
             this.skinButton5.Text = "退    出";
             this.skinButton5.UseVisualStyleBackColor = false;
             this.skinButton5.Click += new System.EventHandler(this.skinButton5_Click);

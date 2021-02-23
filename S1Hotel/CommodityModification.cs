@@ -83,7 +83,7 @@ namespace S1Hotel
         {
             if (tbShuLiang.Text == "")
             {
-                MessageBox.Show("数量不能为空!");
+                MessageBox.Show("数量不能为空!","提示");
                 tbShuLiang.Text = shuLiang.ToString();
                 return;
             }
@@ -93,7 +93,7 @@ namespace S1Hotel
                                 where Name ='{6}'", tbMingCheng.Text, tbDanWei.Text, tbShuLiang.Text, tbJinHuoJia.Text, tbLingShouJia.Text, cbLeiXing.SelectedValue, MingCheng);
                 if (db.ExecuteSQLCommand(sql) > 0)
                 {
-                    MessageBox.Show("修改成功");
+                    MessageBox.Show("修改成功","提示");
                     this.Close();
                 }
             }

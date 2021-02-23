@@ -165,7 +165,7 @@
             this.tbFangJianHao.Location = new System.Drawing.Point(297, 74);
             this.tbFangJianHao.Name = "tbFangJianHao";
             this.tbFangJianHao.Size = new System.Drawing.Size(132, 26);
-            this.tbFangJianHao.TabIndex = 2;
+            this.tbFangJianHao.TabIndex = 1;
             this.tbFangJianHao.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbFangJianHao.WaterText = "";
             // 
@@ -203,7 +203,7 @@
             this.skinButton1.Radius = 10;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(84, 34);
-            this.skinButton1.TabIndex = 4;
+            this.skinButton1.TabIndex = 2;
             this.skinButton1.Text = "查 询";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);

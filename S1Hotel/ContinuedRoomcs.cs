@@ -97,7 +97,7 @@ namespace S1Hotel
         {
             if (tpXinYuLi.Value < Convert.ToDateTime(tbYuanYuLi.Text))
             {
-                MessageBox.Show("预离时间不能小于原预离时间！");
+                MessageBox.Show("预离时间不能小于原预离时间！","提示");
                 return;
             }
             //按天数计算差价
@@ -201,7 +201,7 @@ namespace S1Hotel
             }
             this.Close();
         }
-
+        //差价
         private void tbChaJia_TextChanged(object sender, EventArgs e)
         {
 

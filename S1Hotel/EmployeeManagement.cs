@@ -75,14 +75,14 @@ namespace S1Hotel
                 {
                     if (dgvBiao.SelectedRows[0].Cells[3].Value.ToString().Equals("超级管理员"))
                     {
-                        MessageBox.Show("权限不足！");
+                        MessageBox.Show("权限不足！","提示");
                         return;
                     }
                     string sql = string.Format(@"delete from UserTable
                                                 where UserName = '{0}'", dgvBiao.SelectedRows[0].Cells[0].Value.ToString());
                     if (db.ExecuteSQLCommand(sql) > 0)
                     {
-                        MessageBox.Show("您失去该员工！");
+                        MessageBox.Show("您失去该员工！","提示");
                         ChaXun();
                     }
                 }

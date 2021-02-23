@@ -127,7 +127,7 @@ namespace S1Hotel
                 //移动数量不能大于库存量
                 if (shuLiang > kuCun)
                 {
-                    MessageBox.Show("库存量不足！");
+                    MessageBox.Show("库存量不足！","提示");
                     return;
                 }
                 int j;
@@ -187,12 +187,12 @@ namespace S1Hotel
                 //移动数量不能大于库存量
                 if (shuLiang > kuCun)
                 {
-                    MessageBox.Show("数量不足！");
+                    MessageBox.Show("数量不足！","提示");
                     return;
                 }
                 if (shuLiang == 0)
                 {
-                    MessageBox.Show("数量不能为零！");
+                    MessageBox.Show("数量不能为零！","提示");
                     return;
                 }
                 int j;
@@ -224,7 +224,7 @@ namespace S1Hotel
             }
             JiSuanJiaGe();
         }
-
+        //实收
         private void tbShiShou_TextChanged(object sender, EventArgs e)
         {
 
@@ -255,7 +255,7 @@ namespace S1Hotel
                                             where Name = '{1}'", Convert.ToInt32(lvGouWuChe.Items[i].SubItems[3].Text), lvGouWuChe.Items[i].SubItems[0].Text);
                         if (db.ExecuteSQLCommand(sql) == 0)
                         {
-                            MessageBox.Show("商品数量修改失败！");
+                            MessageBox.Show("商品数量修改失败！","提示");
                         }
                     }
                     catch (Exception ee)
@@ -271,7 +271,7 @@ namespace S1Hotel
                                             values('{0}','{1}','{2}')", DateTime.Now.ToString(), tbHeJi.Text, cbFuKuangFangShi.Text);
                 if (db.ExecuteSQLCommand(sql) > 0)
                 {
-                    MessageBox.Show("购买成功！");
+                    MessageBox.Show("购买成功！","提示");
                     tbHeJi.Text = "";
                     tbShiShou.Text = "";
                     tbZhaoLing.Text = "";
@@ -280,7 +280,7 @@ namespace S1Hotel
             }
             else
             {
-                MessageBox.Show("请选择商品！");
+                MessageBox.Show("请选择商品！","提示");
             }
         }
 
@@ -305,7 +305,7 @@ namespace S1Hotel
             }
             else
             {
-                MessageBox.Show("请在商品表选择需要修改的商品！");
+                MessageBox.Show("请在商品表选择需要修改的商品！","提示");
             }
 
         }
@@ -325,18 +325,18 @@ namespace S1Hotel
                                         where Name = '{0}'", lvShangPing.SelectedItems[0].SubItems[0].Text);
                 if (db.ExecuteSQLCommand(sql) > 0)
                 {
-                    MessageBox.Show("删除成功！");
+                    MessageBox.Show("删除成功！","提示");
                     GetCommodity();
                 }
                 else
                 {
-                    MessageBox.Show("抱歉！该商品舍不得您！");
+                    MessageBox.Show("抱歉！该商品舍不得您！","提示");
                 }
 
             }
             else
             {
-                MessageBox.Show("请在商品表选择需要删除的商品！");
+                MessageBox.Show("请在商品表选择需要删除的商品！","提示");
             }
         }
 

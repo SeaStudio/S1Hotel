@@ -59,7 +59,7 @@
             this.skinButton3.Radius = 12;
             this.skinButton3.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton3.Size = new System.Drawing.Size(71, 38);
-            this.skinButton3.TabIndex = 16;
+            this.skinButton3.TabIndex = 7;
             this.skinButton3.Text = "退  出";
             this.skinButton3.UseVisualStyleBackColor = false;
             this.skinButton3.Click += new System.EventHandler(this.skinButton3_Click);
@@ -77,7 +77,7 @@
             this.skinButton2.Radius = 12;
             this.skinButton2.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton2.Size = new System.Drawing.Size(71, 38);
-            this.skinButton2.TabIndex = 17;
+            this.skinButton2.TabIndex = 6;
             this.skinButton2.Text = "确  定";
             this.skinButton2.UseVisualStyleBackColor = false;
             this.skinButton2.Click += new System.EventHandler(this.skinButton2_Click);
@@ -91,7 +91,7 @@
             this.cbLeiXing.Location = new System.Drawing.Point(319, 39);
             this.cbLeiXing.Name = "cbLeiXing";
             this.cbLeiXing.Size = new System.Drawing.Size(122, 27);
-            this.cbLeiXing.TabIndex = 15;
+            this.cbLeiXing.TabIndex = 1;
             this.cbLeiXing.WaterText = "";
             // 
             // tbJinHuoJia
@@ -101,7 +101,7 @@
             this.tbJinHuoJia.Location = new System.Drawing.Point(319, 71);
             this.tbJinHuoJia.Name = "tbJinHuoJia";
             this.tbJinHuoJia.Size = new System.Drawing.Size(122, 26);
-            this.tbJinHuoJia.TabIndex = 10;
+            this.tbJinHuoJia.TabIndex = 3;
             this.tbJinHuoJia.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbJinHuoJia.WaterText = "";
             this.tbJinHuoJia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbJinHuoJia_KeyPress);
@@ -112,7 +112,7 @@
             this.tbLingShouJia.Location = new System.Drawing.Point(318, 102);
             this.tbLingShouJia.Name = "tbLingShouJia";
             this.tbLingShouJia.Size = new System.Drawing.Size(123, 26);
-            this.tbLingShouJia.TabIndex = 11;
+            this.tbLingShouJia.TabIndex = 5;
             this.tbLingShouJia.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbLingShouJia.WaterText = "";
             this.tbLingShouJia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbLingShouJia_KeyPress);
@@ -123,7 +123,7 @@
             this.tbShuLiang.Location = new System.Drawing.Point(104, 103);
             this.tbShuLiang.Name = "tbShuLiang";
             this.tbShuLiang.Size = new System.Drawing.Size(109, 26);
-            this.tbShuLiang.TabIndex = 12;
+            this.tbShuLiang.TabIndex = 4;
             this.tbShuLiang.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbShuLiang.WaterText = "";
             this.tbShuLiang.TextChanged += new System.EventHandler(this.tbShuLiang_TextChanged);
@@ -137,7 +137,7 @@
             this.tbDanWei.Location = new System.Drawing.Point(104, 71);
             this.tbDanWei.Name = "tbDanWei";
             this.tbDanWei.Size = new System.Drawing.Size(109, 26);
-            this.tbDanWei.TabIndex = 13;
+            this.tbDanWei.TabIndex = 2;
             this.tbDanWei.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbDanWei.WaterText = "";
             // 
@@ -148,7 +148,7 @@
             this.tbMingCheng.Location = new System.Drawing.Point(104, 39);
             this.tbMingCheng.Name = "tbMingCheng";
             this.tbMingCheng.Size = new System.Drawing.Size(109, 26);
-            this.tbMingCheng.TabIndex = 14;
+            this.tbMingCheng.TabIndex = 0;
             this.tbMingCheng.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbMingCheng.WaterText = "";
             // 

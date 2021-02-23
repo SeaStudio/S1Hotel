@@ -136,7 +136,7 @@
             this.tbDanWei.Location = new System.Drawing.Point(113, 73);
             this.tbDanWei.Name = "tbDanWei";
             this.tbDanWei.Size = new System.Drawing.Size(109, 26);
-            this.tbDanWei.TabIndex = 1;
+            this.tbDanWei.TabIndex = 3;
             this.tbDanWei.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbDanWei.WaterText = "";
             // 
@@ -146,7 +146,7 @@
             this.tbShuLiang.Location = new System.Drawing.Point(113, 105);
             this.tbShuLiang.Name = "tbShuLiang";
             this.tbShuLiang.Size = new System.Drawing.Size(109, 26);
-            this.tbShuLiang.TabIndex = 1;
+            this.tbShuLiang.TabIndex = 5;
             this.tbShuLiang.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbShuLiang.WaterText = "";
             this.tbShuLiang.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbShuLiang_KeyPress);
@@ -157,7 +157,7 @@
             this.tbLingShouJia.Location = new System.Drawing.Point(327, 104);
             this.tbLingShouJia.Name = "tbLingShouJia";
             this.tbLingShouJia.Size = new System.Drawing.Size(123, 26);
-            this.tbLingShouJia.TabIndex = 1;
+            this.tbLingShouJia.TabIndex = 6;
             this.tbLingShouJia.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbLingShouJia.WaterText = "";
             this.tbLingShouJia.TextChanged += new System.EventHandler(this.tbLingShouJia_TextChanged);
@@ -169,7 +169,7 @@
             this.tbJinHuoJia.Location = new System.Drawing.Point(328, 73);
             this.tbJinHuoJia.Name = "tbJinHuoJia";
             this.tbJinHuoJia.Size = new System.Drawing.Size(122, 26);
-            this.tbJinHuoJia.TabIndex = 1;
+            this.tbJinHuoJia.TabIndex = 4;
             this.tbJinHuoJia.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbJinHuoJia.WaterText = "";
             this.tbJinHuoJia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbJinHuoJia_KeyPress);
@@ -216,7 +216,7 @@
             this.btQueDing.Radius = 12;
             this.btQueDing.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.btQueDing.Size = new System.Drawing.Size(71, 38);
-            this.btQueDing.TabIndex = 3;
+            this.btQueDing.TabIndex = 7;
             this.btQueDing.Text = "确  定";
             this.btQueDing.UseVisualStyleBackColor = false;
             this.btQueDing.Click += new System.EventHandler(this.skinButton2_Click);
@@ -234,7 +234,7 @@
             this.skinButton3.Radius = 12;
             this.skinButton3.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton3.Size = new System.Drawing.Size(71, 38);
-            this.skinButton3.TabIndex = 3;
+            this.skinButton3.TabIndex = 8;
             this.skinButton3.Text = "退  出";
             this.skinButton3.UseVisualStyleBackColor = false;
             this.skinButton3.Click += new System.EventHandler(this.skinButton3_Click);
@@ -246,6 +246,7 @@
             this.Back = global::S1Hotel.Properties.Resources.OIP3;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(105)))), ((int)(((byte)(93)))));
             this.ClientSize = new System.Drawing.Size(515, 184);
+            this.ControlBoxActive = System.Drawing.Color.Aqua;
             this.Controls.Add(this.skinButton3);
             this.Controls.Add(this.btQueDing);
             this.Controls.Add(this.skinButton1);

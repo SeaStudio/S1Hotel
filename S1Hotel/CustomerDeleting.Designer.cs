@@ -63,7 +63,7 @@
             this.skinButton2.Radius = 11;
             this.skinButton2.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton2.Size = new System.Drawing.Size(88, 39);
-            this.skinButton2.TabIndex = 4;
+            this.skinButton2.TabIndex = 9;
             this.skinButton2.Text = "退  出";
             this.skinButton2.UseVisualStyleBackColor = false;
             this.skinButton2.Click += new System.EventHandler(this.skinButton2_Click);
@@ -80,7 +80,7 @@
             this.skinButton1.Radius = 11;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(88, 39);
-            this.skinButton1.TabIndex = 3;
+            this.skinButton1.TabIndex = 8;
             this.skinButton1.Text = "确  定";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
@@ -134,7 +134,7 @@
             this.rbNan.SelectedMouseBack = null;
             this.rbNan.SelectedNormlBack = null;
             this.rbNan.Size = new System.Drawing.Size(41, 24);
-            this.rbNan.TabIndex = 10;
+            this.rbNan.TabIndex = 3;
             this.rbNan.TabStop = true;
             this.rbNan.Text = "男";
             this.rbNan.UseVisualStyleBackColor = false;
@@ -154,7 +154,7 @@
             this.rbNv.SelectedMouseBack = null;
             this.rbNv.SelectedNormlBack = null;
             this.rbNv.Size = new System.Drawing.Size(41, 24);
-            this.rbNv.TabIndex = 10;
+            this.rbNv.TabIndex = 4;
             this.rbNv.Text = "女";
             this.rbNv.UseVisualStyleBackColor = false;
             // 
@@ -165,7 +165,7 @@
             this.tbJiuLeiXing.Location = new System.Drawing.Point(108, 283);
             this.tbJiuLeiXing.Name = "tbJiuLeiXing";
             this.tbJiuLeiXing.Size = new System.Drawing.Size(129, 26);
-            this.tbJiuLeiXing.TabIndex = 8;
+            this.tbJiuLeiXing.TabIndex = 7;
             this.tbJiuLeiXing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbJiuLeiXing.WaterText = "";
             // 
@@ -176,7 +176,7 @@
             this.tbYuE.Location = new System.Drawing.Point(109, 242);
             this.tbYuE.Name = "tbYuE";
             this.tbYuE.Size = new System.Drawing.Size(128, 26);
-            this.tbYuE.TabIndex = 8;
+            this.tbYuE.TabIndex = 6;
             this.tbYuE.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbYuE.WaterText = "";
             // 
@@ -187,7 +187,7 @@
             this.tbNianLing.Location = new System.Drawing.Point(109, 198);
             this.tbNianLing.Name = "tbNianLing";
             this.tbNianLing.Size = new System.Drawing.Size(128, 26);
-            this.tbNianLing.TabIndex = 8;
+            this.tbNianLing.TabIndex = 5;
             this.tbNianLing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbNianLing.WaterText = "";
             // 
@@ -198,7 +198,7 @@
             this.tbDianHua.Location = new System.Drawing.Point(109, 118);
             this.tbDianHua.Name = "tbDianHua";
             this.tbDianHua.Size = new System.Drawing.Size(128, 26);
-            this.tbDianHua.TabIndex = 8;
+            this.tbDianHua.TabIndex = 2;
             this.tbDianHua.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbDianHua.WaterText = "";
             // 
@@ -209,7 +209,7 @@
             this.tbShenFenZheng.Location = new System.Drawing.Point(109, 77);
             this.tbShenFenZheng.Name = "tbShenFenZheng";
             this.tbShenFenZheng.Size = new System.Drawing.Size(156, 26);
-            this.tbShenFenZheng.TabIndex = 8;
+            this.tbShenFenZheng.TabIndex = 1;
             this.tbShenFenZheng.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbShenFenZheng.WaterText = "";
             // 
@@ -220,7 +220,7 @@
             this.tbXingMing.Location = new System.Drawing.Point(109, 36);
             this.tbXingMing.Name = "tbXingMing";
             this.tbXingMing.Size = new System.Drawing.Size(128, 26);
-            this.tbXingMing.TabIndex = 8;
+            this.tbXingMing.TabIndex = 0;
             this.tbXingMing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbXingMing.WaterText = "";
             // 

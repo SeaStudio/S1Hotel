@@ -46,7 +46,7 @@ namespace S1Hotel
                                             where State ='新开单' and UName ='{0}'", tbXingMing.Text);
                 if (db.GetSingleIntValue(sql) > 0)
                 {
-                    MessageBox.Show("该客户还在入住状态！不能删除！");
+                    MessageBox.Show("该客户还在入住状态不能删除！","提示");
                     tbXingMing.Text = "";
                     return;
                 }
@@ -72,7 +72,7 @@ namespace S1Hotel
                                             where CarID='{0}'", tbShenFenZheng.Text);
                 if (db.ExecuteSQLCommand(sql) > 0)
                 {
-                    MessageBox.Show("删除成功！");
+                    MessageBox.Show("删除成功！","提示");
                     this.Close();
                 }
             }

@@ -72,7 +72,7 @@
             this.skinButton1.NormlBack = null;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(181, 46);
-            this.skinButton1.TabIndex = 1;
+            this.skinButton1.TabIndex = 3;
             this.skinButton1.Text = "修    改";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
@@ -92,7 +92,7 @@
             this.cbZhuangTai.Location = new System.Drawing.Point(82, 116);
             this.cbZhuangTai.Name = "cbZhuangTai";
             this.cbZhuangTai.Size = new System.Drawing.Size(146, 30);
-            this.cbZhuangTai.TabIndex = 3;
+            this.cbZhuangTai.TabIndex = 2;
             this.cbZhuangTai.WaterText = "";
             // 
             // cbFangHao
@@ -104,7 +104,7 @@
             this.cbFangHao.Location = new System.Drawing.Point(82, 63);
             this.cbFangHao.Name = "cbFangHao";
             this.cbFangHao.Size = new System.Drawing.Size(146, 30);
-            this.cbFangHao.TabIndex = 3;
+            this.cbFangHao.TabIndex = 1;
             this.cbFangHao.WaterText = "";
             // 
             // ModifyRoomStatus

@@ -67,7 +67,7 @@
             this.tbXingMing.Location = new System.Drawing.Point(106, 42);
             this.tbXingMing.Name = "tbXingMing";
             this.tbXingMing.Size = new System.Drawing.Size(143, 26);
-            this.tbXingMing.TabIndex = 1;
+            this.tbXingMing.TabIndex = 0;
             this.tbXingMing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbXingMing.WaterText = "";
             // 
@@ -112,7 +112,7 @@
             this.tbJinE.Location = new System.Drawing.Point(106, 228);
             this.tbJinE.Name = "tbJinE";
             this.tbJinE.Size = new System.Drawing.Size(143, 26);
-            this.tbJinE.TabIndex = 1;
+            this.tbJinE.TabIndex = 5;
             this.tbJinE.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbJinE.WaterText = "";
             this.tbJinE.TextChanged += new System.EventHandler(this.skinWaterTextBox3_TextChanged);
@@ -139,9 +139,8 @@
             this.cbLeiXing.Location = new System.Drawing.Point(106, 190);
             this.cbLeiXing.Name = "cbLeiXing";
             this.cbLeiXing.Size = new System.Drawing.Size(143, 27);
-            this.cbLeiXing.TabIndex = 2;
+            this.cbLeiXing.TabIndex = 4;
             this.cbLeiXing.WaterText = "";
-            this.cbLeiXing.SelectedIndexChanged += new System.EventHandler(this.cbLeiXing_SelectedIndexChanged);
             // 
             // skinLabel5
             // 
@@ -162,7 +161,7 @@
             this.tbYuanYuE.Location = new System.Drawing.Point(106, 116);
             this.tbYuanYuE.Name = "tbYuanYuE";
             this.tbYuanYuE.Size = new System.Drawing.Size(143, 26);
-            this.tbYuanYuE.TabIndex = 1;
+            this.tbYuanYuE.TabIndex = 2;
             this.tbYuanYuE.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbYuanYuE.WaterText = "";
             // 
@@ -178,7 +177,7 @@
             this.skinButton1.Radius = 18;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(143, 53);
-            this.skinButton1.TabIndex = 3;
+            this.skinButton1.TabIndex = 7;
             this.skinButton1.Text = "充    值";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
@@ -214,7 +213,7 @@
             this.tbHuiYuan.Location = new System.Drawing.Point(106, 153);
             this.tbHuiYuan.Name = "tbHuiYuan";
             this.tbHuiYuan.Size = new System.Drawing.Size(143, 26);
-            this.tbHuiYuan.TabIndex = 1;
+            this.tbHuiYuan.TabIndex = 3;
             this.tbHuiYuan.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbHuiYuan.WaterText = "";
             // 
@@ -225,7 +224,7 @@
             this.tbSong.Name = "tbSong";
             this.tbSong.ReadOnly = true;
             this.tbSong.Size = new System.Drawing.Size(143, 26);
-            this.tbSong.TabIndex = 1;
+            this.tbSong.TabIndex = 6;
             this.tbSong.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbSong.WaterText = "";
             this.tbSong.TextChanged += new System.EventHandler(this.skinWaterTextBox3_TextChanged);

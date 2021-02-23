@@ -28,7 +28,7 @@ namespace S1Hotel
         {
             if (txtXingMing.Text == "" || txtShengFenZheng.Text == "" || txtZhangHao.Text == "" || txtMiMa2.Text == "" || txtMiMa1.Text == "" || cbQuanXian.Text == "")
             {
-                MessageBox.Show("所有文本框均不能为空！");
+                MessageBox.Show("所有文本框均不能为空！","提示");
                 return;
             }
             try
@@ -37,12 +37,12 @@ namespace S1Hotel
                                 values('{0}','{1}','{2}','{3}','{4}')", txtZhangHao.Text, txtMiMa2.Text, txtShengFenZheng.Text, txtXingMing.Text, cbQuanXian.Text);
                 if (db.ExecuteSQLCommand(sql) > 0)
                 {
-                    MessageBox.Show("新增员工成功！");
+                    MessageBox.Show("新增员工成功！","提示");
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("新增员工失败！");
+                    MessageBox.Show("新增员工失败！","提示");
                 }
 
             }
@@ -91,7 +91,7 @@ namespace S1Hotel
                                                 where UserName = '{0}'", txtZhangHao.Text);
                 if (db.GetSingleIntValue(sql) > 0)
                 {
-                    MessageBox.Show("该账号已存在！");
+                    MessageBox.Show("该账号已存在！","提示");
                     txtZhangHao.Text = "";
                 }
             }

@@ -133,7 +133,7 @@
             this.txtXingMing.Location = new System.Drawing.Point(98, 79);
             this.txtXingMing.Name = "txtXingMing";
             this.txtXingMing.Size = new System.Drawing.Size(149, 23);
-            this.txtXingMing.TabIndex = 1;
+            this.txtXingMing.TabIndex = 2;
             this.txtXingMing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.txtXingMing.WaterText = "";
             // 
@@ -143,7 +143,7 @@
             this.txtDianHua.Location = new System.Drawing.Point(98, 116);
             this.txtDianHua.Name = "txtDianHua";
             this.txtDianHua.Size = new System.Drawing.Size(149, 23);
-            this.txtDianHua.TabIndex = 1;
+            this.txtDianHua.TabIndex = 3;
             this.txtDianHua.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.txtDianHua.WaterText = "";
             // 
@@ -154,7 +154,7 @@
             this.txtBeiZhu.Multiline = true;
             this.txtBeiZhu.Name = "txtBeiZhu";
             this.txtBeiZhu.Size = new System.Drawing.Size(149, 67);
-            this.txtBeiZhu.TabIndex = 1;
+            this.txtBeiZhu.TabIndex = 6;
             this.txtBeiZhu.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.txtBeiZhu.WaterText = "";
             // 
@@ -169,7 +169,7 @@
             this.skinButton1.Name = "skinButton1";
             this.skinButton1.NormlBack = null;
             this.skinButton1.Size = new System.Drawing.Size(197, 39);
-            this.skinButton1.TabIndex = 2;
+            this.skinButton1.TabIndex = 7;
             this.skinButton1.Text = "确 定 修 改";
             this.skinButton1.UseVisualStyleBackColor = false;
             // 
@@ -182,7 +182,7 @@
             this.tpYuZhu.Location = new System.Drawing.Point(99, 155);
             this.tpYuZhu.Name = "tpYuZhu";
             this.tpYuZhu.Size = new System.Drawing.Size(148, 23);
-            this.tpYuZhu.TabIndex = 3;
+            this.tpYuZhu.TabIndex = 4;
             // 
             // tpYuLi
             // 
@@ -193,7 +193,7 @@
             this.tpYuLi.Location = new System.Drawing.Point(98, 199);
             this.tpYuLi.Name = "tpYuLi";
             this.tpYuLi.Size = new System.Drawing.Size(148, 23);
-            this.tpYuLi.TabIndex = 3;
+            this.tpYuLi.TabIndex = 5;
             // 
             // PredefinedModification
             // 

@@ -116,7 +116,7 @@ namespace S1Hotel
                                             where Name = '{1}'", tbMingCheng.Text, mingCheng);
                 if (db.ExecuteSQLCommand(sql) > 0)
                 {
-                    MessageBox.Show("保存成功！");
+                    MessageBox.Show("保存成功！","提示");
                     this.Close();
                 }
             }

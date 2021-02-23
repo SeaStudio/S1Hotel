@@ -83,7 +83,7 @@ namespace S1Hotel
             ListViewItem list = lvKXF.SelectedItems[0];
             if (!(lvKXF.SelectedItems[0].SubItems[4].Text.Equals("空净")))
             {
-                MessageBox.Show("抱歉！非空净的房间不允许删除！");
+                MessageBox.Show("抱歉！非空净的房间不允许删除！","提示");
                 return;
             }
             //cbFangJianLeiXing.Text = lvKongJingFang.SelectedItems[0].SubItems[1].Text;
@@ -145,7 +145,7 @@ namespace S1Hotel
             }
             else
             {
-                MessageBox.Show("请选择需要删除的房间！");
+                MessageBox.Show("请选择需要删除的房间！","提示");
             }
 
 

@@ -91,7 +91,7 @@
             this.tbXinJia.Location = new System.Drawing.Point(119, 110);
             this.tbXinJia.Name = "tbXinJia";
             this.tbXinJia.Size = new System.Drawing.Size(129, 26);
-            this.tbXinJia.TabIndex = 2;
+            this.tbXinJia.TabIndex = 3;
             this.tbXinJia.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbXinJia.WaterText = "";
             // 
@@ -109,7 +109,7 @@
             this.skinButton1.Radius = 12;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(245, 49);
-            this.skinButton1.TabIndex = 3;
+            this.skinButton1.TabIndex = 4;
             this.skinButton1.Text = "确 定 修 改";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
@@ -122,7 +122,7 @@
             this.cbYuanJia.Location = new System.Drawing.Point(119, 73);
             this.cbYuanJia.Name = "cbYuanJia";
             this.cbYuanJia.Size = new System.Drawing.Size(129, 27);
-            this.cbYuanJia.TabIndex = 1;
+            this.cbYuanJia.TabIndex = 2;
             this.cbYuanJia.WaterText = "";
             // 
             // ReviseThePrice

@@ -79,7 +79,7 @@
             this.tbFangKa.Location = new System.Drawing.Point(123, 111);
             this.tbFangKa.Name = "tbFangKa";
             this.tbFangKa.Size = new System.Drawing.Size(142, 33);
-            this.tbFangKa.TabIndex = 1;
+            this.tbFangKa.TabIndex = 2;
             this.tbFangKa.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbFangKa.WaterText = "";
             this.tbFangKa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbFangKa_KeyPress);
@@ -94,7 +94,7 @@
             this.skinButton1.Name = "skinButton1";
             this.skinButton1.NormlBack = null;
             this.skinButton1.Size = new System.Drawing.Size(75, 36);
-            this.skinButton1.TabIndex = 2;
+            this.skinButton1.TabIndex = 3;
             this.skinButton1.Text = "确 定";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
@@ -109,7 +109,7 @@
             this.skinButton2.Name = "skinButton2";
             this.skinButton2.NormlBack = null;
             this.skinButton2.Size = new System.Drawing.Size(75, 36);
-            this.skinButton2.TabIndex = 2;
+            this.skinButton2.TabIndex = 4;
             this.skinButton2.Text = "取 消";
             this.skinButton2.UseVisualStyleBackColor = false;
             this.skinButton2.Click += new System.EventHandler(this.skinButton2_Click);

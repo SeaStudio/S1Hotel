@@ -29,7 +29,7 @@ namespace S1Hotel
         {
             if (txtJinE.Text == "" || txtLeiXing.Text == "")
             {
-                MessageBox.Show("抱歉！资料填写不完善！");
+                MessageBox.Show("抱歉！资料填写不完善！","提示");
                 return;
             }
             try
@@ -38,7 +38,7 @@ namespace S1Hotel
                         values('{0}','{1}','{2}')", tpShiJian.Text, txtJinE.Text, txtLeiXing.Text);
                 if (db.ExecuteSQLCommand(sql) > 0)
                 {
-                    MessageBox.Show("新增支出成功！");
+                    MessageBox.Show("新增支出成功！","提示");
                     this.Close();
                 }
             }

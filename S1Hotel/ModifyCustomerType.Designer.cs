@@ -76,7 +76,7 @@
             this.tbZheKou.Location = new System.Drawing.Point(70, 86);
             this.tbZheKou.Name = "tbZheKou";
             this.tbZheKou.Size = new System.Drawing.Size(138, 26);
-            this.tbZheKou.TabIndex = 12;
+            this.tbZheKou.TabIndex = 2;
             this.tbZheKou.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbZheKou.WaterText = "";
             // 
@@ -86,7 +86,7 @@
             this.tbLeiXing.Location = new System.Drawing.Point(70, 44);
             this.tbLeiXing.Name = "tbLeiXing";
             this.tbLeiXing.Size = new System.Drawing.Size(138, 26);
-            this.tbLeiXing.TabIndex = 13;
+            this.tbLeiXing.TabIndex = 0;
             this.tbLeiXing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbLeiXing.WaterText = "";
             // 
@@ -126,7 +126,7 @@
             this.skinButton3.Radius = 20;
             this.skinButton3.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton3.Size = new System.Drawing.Size(138, 35);
-            this.skinButton3.TabIndex = 11;
+            this.skinButton3.TabIndex = 4;
             this.skinButton3.Text = "添  加";
             this.skinButton3.UseVisualStyleBackColor = false;
             this.skinButton3.Click += new System.EventHandler(this.skinButton3_Click);
@@ -162,7 +162,7 @@
             this.cbZheKou.Location = new System.Drawing.Point(70, 85);
             this.cbZheKou.Name = "cbZheKou";
             this.cbZheKou.Size = new System.Drawing.Size(138, 27);
-            this.cbZheKou.TabIndex = 12;
+            this.cbZheKou.TabIndex = 3;
             this.cbZheKou.WaterText = "";
             // 
             // cbLeiXing
@@ -174,7 +174,7 @@
             this.cbLeiXing.Location = new System.Drawing.Point(70, 42);
             this.cbLeiXing.Name = "cbLeiXing";
             this.cbLeiXing.Size = new System.Drawing.Size(138, 27);
-            this.cbLeiXing.TabIndex = 12;
+            this.cbLeiXing.TabIndex = 1;
             this.cbLeiXing.WaterText = "";
             // 
             // skinLabel7
@@ -213,7 +213,7 @@
             this.skinButton4.Radius = 20;
             this.skinButton4.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton4.Size = new System.Drawing.Size(138, 35);
-            this.skinButton4.TabIndex = 11;
+            this.skinButton4.TabIndex = 5;
             this.skinButton4.Text = "修  改";
             this.skinButton4.UseVisualStyleBackColor = false;
             this.skinButton4.Click += new System.EventHandler(this.skinButton4_Click);
@@ -230,7 +230,7 @@
             this.skinButton1.Radius = 20;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(455, 35);
-            this.skinButton1.TabIndex = 11;
+            this.skinButton1.TabIndex = 6;
             this.skinButton1.Text = "退   出";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click_1);

@@ -147,7 +147,7 @@
             this.tbRuZhuShiJian.Location = new System.Drawing.Point(116, 112);
             this.tbRuZhuShiJian.Name = "tbRuZhuShiJian";
             this.tbRuZhuShiJian.Size = new System.Drawing.Size(100, 26);
-            this.tbRuZhuShiJian.TabIndex = 1;
+            this.tbRuZhuShiJian.TabIndex = 2;
             this.tbRuZhuShiJian.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbRuZhuShiJian.WaterText = "";
             // 
@@ -158,7 +158,7 @@
             this.tbYuanYuLi.Location = new System.Drawing.Point(116, 147);
             this.tbYuanYuLi.Name = "tbYuanYuLi";
             this.tbYuanYuLi.Size = new System.Drawing.Size(100, 26);
-            this.tbYuanYuLi.TabIndex = 1;
+            this.tbYuanYuLi.TabIndex = 3;
             this.tbYuanYuLi.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbYuanYuLi.WaterText = "";
             // 
@@ -170,7 +170,7 @@
             this.tpXinYuLi.Location = new System.Drawing.Point(116, 181);
             this.tpXinYuLi.Name = "tpXinYuLi";
             this.tpXinYuLi.Size = new System.Drawing.Size(155, 23);
-            this.tpXinYuLi.TabIndex = 2;
+            this.tpXinYuLi.TabIndex = 4;
             // 
             // tbChaJia
             // 
@@ -178,7 +178,7 @@
             this.tbChaJia.Location = new System.Drawing.Point(116, 217);
             this.tbChaJia.Name = "tbChaJia";
             this.tbChaJia.Size = new System.Drawing.Size(100, 26);
-            this.tbChaJia.TabIndex = 1;
+            this.tbChaJia.TabIndex = 5;
             this.tbChaJia.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbChaJia.WaterText = "";
             this.tbChaJia.TextChanged += new System.EventHandler(this.tbChaJia_TextChanged);
@@ -194,7 +194,7 @@
             this.skinButton1.Name = "skinButton1";
             this.skinButton1.NormlBack = null;
             this.skinButton1.Size = new System.Drawing.Size(164, 36);
-            this.skinButton1.TabIndex = 3;
+            this.skinButton1.TabIndex = 6;
             this.skinButton1.Text = "续    订";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);

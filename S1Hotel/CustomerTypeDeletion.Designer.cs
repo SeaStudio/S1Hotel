@@ -71,7 +71,7 @@
             this.cbZheKou.Location = new System.Drawing.Point(70, 85);
             this.cbZheKou.Name = "cbZheKou";
             this.cbZheKou.Size = new System.Drawing.Size(138, 27);
-            this.cbZheKou.TabIndex = 12;
+            this.cbZheKou.TabIndex = 1;
             this.cbZheKou.WaterText = "";
             // 
             // cbLeiXing
@@ -83,7 +83,7 @@
             this.cbLeiXing.Location = new System.Drawing.Point(70, 42);
             this.cbLeiXing.Name = "cbLeiXing";
             this.cbLeiXing.Size = new System.Drawing.Size(138, 27);
-            this.cbLeiXing.TabIndex = 12;
+            this.cbLeiXing.TabIndex = 0;
             this.cbLeiXing.WaterText = "";
             // 
             // skinLabel7
@@ -122,7 +122,7 @@
             this.skinButton4.Radius = 20;
             this.skinButton4.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton4.Size = new System.Drawing.Size(138, 35);
-            this.skinButton4.TabIndex = 11;
+            this.skinButton4.TabIndex = 2;
             this.skinButton4.Text = "删  除";
             this.skinButton4.UseVisualStyleBackColor = false;
             this.skinButton4.Click += new System.EventHandler(this.skinButton4_Click);

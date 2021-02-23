@@ -55,7 +55,7 @@ namespace S1Hotel
                 }
                 else
                 {
-                    MessageBox.Show("抱歉！充值失败！");
+                    MessageBox.Show("抱歉！充值失败！","提示");
                 }
             }
             catch (Exception ee)
@@ -75,7 +75,7 @@ namespace S1Hotel
                 values('{0}','{1}','{2}','{3}')", sj, tbJinE.Text, tbShenFenZheng.Text, tbSong.Text);
                 if (db.ExecuteSQLCommand(sql) == 0)
                 {
-                    MessageBox.Show("新增到充值记录表中失败！");
+                    MessageBox.Show("新增到充值记录表中失败！","提示");
                 }
 
             }
@@ -109,23 +109,23 @@ namespace S1Hotel
                 double jinE = Convert.ToDouble(tbJinE.Text);
                 if (jinE >= 5000)
                 {
-                    cbLeiXing.Text = "陨石会员";
-                    tbSong.Text = "可乐";
+                    cbLeiXing.Text = "王者会员";
+                    tbSong.Text = "苹果笔记本";
                 }
                 else if (jinE >= 2000)
                 {
                     cbLeiXing.Text = "钻石会员";
-                    tbSong.Text = "芙蓉王";
+                    tbSong.Text = "华为P40 pro";
                 }
                 else if (jinE >= 800)
                 {
                     cbLeiXing.Text = "黄金会员";
-                    tbSong.Text = "白沙";
+                    tbSong.Text = "高级护肤品";
                 }
                 else
                 {
                     cbLeiXing.Text = "普通用户";
-                    tbSong.Text = "扑克";
+                    tbSong.Text = "牙膏一套";
                 }
             }
         }
@@ -134,7 +134,7 @@ namespace S1Hotel
             string sql = string.Format(@"update Commodity set Number=Number-1 where Name='{0}'", tbSong.Text);
             if (db.ExecuteSQLCommand(sql) == 0)
             {
-                MessageBox.Show("商品修改失败！");
+                MessageBox.Show("商品修改成功！","提示");
             }
         }
 
@@ -184,12 +184,5 @@ namespace S1Hotel
             }
 
         }
-
-        private void cbLeiXing_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
     }
 }

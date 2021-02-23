@@ -118,7 +118,7 @@ namespace S1Hotel
                 }
                 else
                 {
-                    MessageBox.Show("该房间处于未入住状态");
+                    MessageBox.Show("该房间处于未入住状态","提示");
                 }
             }
             catch (Exception ee)
@@ -157,7 +157,7 @@ namespace S1Hotel
         {
             if (tbRuZhu.Text == "")
             {
-                MessageBox.Show("请却无换房无误后执行！");
+                MessageBox.Show("请却无换房无误后执行！","提示");
                 return;
             }
             try

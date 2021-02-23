@@ -1526,6 +1526,7 @@
             this.CaptionFont = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.CaptionHeight = 28;
             this.ClientSize = new System.Drawing.Size(1288, 735);
+            this.ControlBoxActive = System.Drawing.Color.Aqua;
             this.Controls.Add(this.btXiaoXi);
             this.Controls.Add(this.skinGroupBox4);
             this.Controls.Add(this.skinGroupBox1);
@@ -1534,6 +1535,7 @@
             this.Controls.Add(this.skinPanel3);
             this.Controls.Add(this.skinGroupBox3);
             this.EffectBack = System.Drawing.SystemColors.ActiveCaption;
+            this.ForeColor = System.Drawing.Color.Red;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MdiBackColor = System.Drawing.Color.Transparent;

@@ -106,7 +106,7 @@
             this.skinButton2.Radius = 12;
             this.skinButton2.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton2.Size = new System.Drawing.Size(80, 39);
-            this.skinButton2.TabIndex = 3;
+            this.skinButton2.TabIndex = 6;
             this.skinButton2.Text = "取 消";
             this.skinButton2.UseVisualStyleBackColor = false;
             this.skinButton2.Click += new System.EventHandler(this.skinButton2_Click);
@@ -123,7 +123,7 @@
             this.skinButton1.Radius = 12;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(80, 39);
-            this.skinButton1.TabIndex = 3;
+            this.skinButton1.TabIndex = 6;
             this.skinButton1.Text = "确 定";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
@@ -140,7 +140,7 @@
             this.cbQuanXian.Location = new System.Drawing.Point(100, 213);
             this.cbQuanXian.Name = "cbQuanXian";
             this.cbQuanXian.Size = new System.Drawing.Size(154, 27);
-            this.cbQuanXian.TabIndex = 2;
+            this.cbQuanXian.TabIndex = 5;
             this.cbQuanXian.WaterText = "";
             // 
             // txtMiMa2
@@ -150,7 +150,7 @@
             this.txtMiMa2.Name = "txtMiMa2";
             this.txtMiMa2.PasswordChar = '●';
             this.txtMiMa2.Size = new System.Drawing.Size(154, 26);
-            this.txtMiMa2.TabIndex = 1;
+            this.txtMiMa2.TabIndex = 4;
             this.txtMiMa2.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.txtMiMa2.WaterText = "";
             this.txtMiMa2.TextChanged += new System.EventHandler(this.txtMiMa2_TextChanged);
@@ -162,7 +162,7 @@
             this.txtMiMa1.Name = "txtMiMa1";
             this.txtMiMa1.PasswordChar = '●';
             this.txtMiMa1.Size = new System.Drawing.Size(154, 26);
-            this.txtMiMa1.TabIndex = 1;
+            this.txtMiMa1.TabIndex = 3;
             this.txtMiMa1.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.txtMiMa1.WaterText = "";
             // 
@@ -172,7 +172,7 @@
             this.txtZhangHao.Location = new System.Drawing.Point(100, 104);
             this.txtZhangHao.Name = "txtZhangHao";
             this.txtZhangHao.Size = new System.Drawing.Size(154, 26);
-            this.txtZhangHao.TabIndex = 1;
+            this.txtZhangHao.TabIndex = 2;
             this.txtZhangHao.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.txtZhangHao.WaterText = "";
             this.txtZhangHao.TextChanged += new System.EventHandler(this.txtZhangHao_TextChanged);
@@ -194,7 +194,7 @@
             this.txtXingMing.Location = new System.Drawing.Point(100, 33);
             this.txtXingMing.Name = "txtXingMing";
             this.txtXingMing.Size = new System.Drawing.Size(154, 26);
-            this.txtXingMing.TabIndex = 1;
+            this.txtXingMing.TabIndex = 0;
             this.txtXingMing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.txtXingMing.WaterText = "";
             // 

@@ -62,7 +62,7 @@ namespace S1Hotel
         {
             if (tbNianLing.Text.Equals("")||tbShenFenZheng.Text.Equals("")||tbXingMing.Text.Equals(""))
             {
-                MessageBox.Show("请认真填写资料！");
+                MessageBox.Show("请认真填写资料！","提示");
                 return;
             }
             try
@@ -76,7 +76,7 @@ namespace S1Hotel
                                  where CarID='{7}' and Name ='{8}'",tbXingMing.Text,tbShenFenZheng.Text,tbDianHua.Text,tbYuE.Text,cbLeiXing.SelectedValue,sex,tbNianLing.Text,ShenFengZheng,XingMing);
                 if (db.ExecuteSQLCommand(sql)>0)
                 {
-                    MessageBox.Show("用户信息修改成功！");
+                    MessageBox.Show("用户信息修改成功！","提示");
                     this.Close();
                 }
             }

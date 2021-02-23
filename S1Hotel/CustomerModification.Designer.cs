@@ -117,7 +117,7 @@
             this.rbNan.SelectedMouseBack = null;
             this.rbNan.SelectedNormlBack = null;
             this.rbNan.Size = new System.Drawing.Size(41, 24);
-            this.rbNan.TabIndex = 10;
+            this.rbNan.TabIndex = 3;
             this.rbNan.TabStop = true;
             this.rbNan.Text = "男";
             this.rbNan.UseVisualStyleBackColor = false;
@@ -137,7 +137,7 @@
             this.rbNv.SelectedMouseBack = null;
             this.rbNv.SelectedNormlBack = null;
             this.rbNv.Size = new System.Drawing.Size(41, 24);
-            this.rbNv.TabIndex = 10;
+            this.rbNv.TabIndex = 4;
             this.rbNv.Text = "女";
             this.rbNv.UseVisualStyleBackColor = false;
             // 
@@ -148,7 +148,7 @@
             this.cbLeiXing.Location = new System.Drawing.Point(122, 260);
             this.cbLeiXing.Name = "cbLeiXing";
             this.cbLeiXing.Size = new System.Drawing.Size(129, 30);
-            this.cbLeiXing.TabIndex = 9;
+            this.cbLeiXing.TabIndex = 8;
             this.cbLeiXing.WaterText = "";
             // 
             // tbJiuLeiXing
@@ -157,7 +157,7 @@
             this.tbJiuLeiXing.Location = new System.Drawing.Point(123, 221);
             this.tbJiuLeiXing.Name = "tbJiuLeiXing";
             this.tbJiuLeiXing.Size = new System.Drawing.Size(129, 29);
-            this.tbJiuLeiXing.TabIndex = 8;
+            this.tbJiuLeiXing.TabIndex = 7;
             this.tbJiuLeiXing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbJiuLeiXing.WaterText = "";
             // 
@@ -167,7 +167,7 @@
             this.tbYuE.Location = new System.Drawing.Point(123, 187);
             this.tbYuE.Name = "tbYuE";
             this.tbYuE.Size = new System.Drawing.Size(129, 29);
-            this.tbYuE.TabIndex = 8;
+            this.tbYuE.TabIndex = 6;
             this.tbYuE.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbYuE.WaterText = "";
             this.tbYuE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbYuE_KeyPress);
@@ -177,7 +177,7 @@
             this.tbNianLing.Location = new System.Drawing.Point(123, 153);
             this.tbNianLing.Name = "tbNianLing";
             this.tbNianLing.Size = new System.Drawing.Size(128, 29);
-            this.tbNianLing.TabIndex = 8;
+            this.tbNianLing.TabIndex = 5;
             this.tbNianLing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbNianLing.WaterText = "";
             // 
@@ -186,7 +186,7 @@
             this.tbDianHua.Location = new System.Drawing.Point(124, 90);
             this.tbDianHua.Name = "tbDianHua";
             this.tbDianHua.Size = new System.Drawing.Size(128, 29);
-            this.tbDianHua.TabIndex = 8;
+            this.tbDianHua.TabIndex = 2;
             this.tbDianHua.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbDianHua.WaterText = "";
             // 
@@ -196,7 +196,7 @@
             this.tbShenFenZheng.Location = new System.Drawing.Point(124, 56);
             this.tbShenFenZheng.Name = "tbShenFenZheng";
             this.tbShenFenZheng.Size = new System.Drawing.Size(187, 29);
-            this.tbShenFenZheng.TabIndex = 8;
+            this.tbShenFenZheng.TabIndex = 1;
             this.tbShenFenZheng.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbShenFenZheng.WaterText = "";
             this.tbShenFenZheng.MouseLeave += new System.EventHandler(this.tbShenFenZheng_MouseLeave);
@@ -207,7 +207,7 @@
             this.tbXingMing.Location = new System.Drawing.Point(124, 22);
             this.tbXingMing.Name = "tbXingMing";
             this.tbXingMing.Size = new System.Drawing.Size(128, 29);
-            this.tbXingMing.TabIndex = 8;
+            this.tbXingMing.TabIndex = 0;
             this.tbXingMing.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbXingMing.WaterText = "";
             // 
@@ -319,7 +319,7 @@
             this.skinButton1.Radius = 11;
             this.skinButton1.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton1.Size = new System.Drawing.Size(88, 39);
-            this.skinButton1.TabIndex = 1;
+            this.skinButton1.TabIndex = 9;
             this.skinButton1.Text = "确  定";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);
@@ -336,7 +336,7 @@
             this.skinButton2.Radius = 11;
             this.skinButton2.RoundStyle = CCWin.SkinClass.RoundStyle.All;
             this.skinButton2.Size = new System.Drawing.Size(88, 39);
-            this.skinButton2.TabIndex = 1;
+            this.skinButton2.TabIndex = 10;
             this.skinButton2.Text = "退  出";
             this.skinButton2.UseVisualStyleBackColor = false;
             this.skinButton2.Click += new System.EventHandler(this.skinButton2_Click);

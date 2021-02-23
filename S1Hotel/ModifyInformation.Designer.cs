@@ -89,7 +89,7 @@
             this.cbLeiXing.Location = new System.Drawing.Point(107, 85);
             this.cbLeiXing.Name = "cbLeiXing";
             this.cbLeiXing.Size = new System.Drawing.Size(121, 27);
-            this.cbLeiXing.TabIndex = 1;
+            this.cbLeiXing.TabIndex = 2;
             this.cbLeiXing.WaterText = "";
             // 
             // skinLabel3
@@ -114,7 +114,7 @@
             this.cbJiaGe.Location = new System.Drawing.Point(107, 128);
             this.cbJiaGe.Name = "cbJiaGe";
             this.cbJiaGe.Size = new System.Drawing.Size(121, 27);
-            this.cbJiaGe.TabIndex = 1;
+            this.cbJiaGe.TabIndex = 3;
             this.cbJiaGe.WaterText = "";
             // 
             // skinLabel4
@@ -135,7 +135,7 @@
             this.tbLouCeng.Location = new System.Drawing.Point(107, 200);
             this.tbLouCeng.Name = "tbLouCeng";
             this.tbLouCeng.Size = new System.Drawing.Size(121, 26);
-            this.tbLouCeng.TabIndex = 2;
+            this.tbLouCeng.TabIndex = 6;
             this.tbLouCeng.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.tbLouCeng.WaterText = "";
             // 
@@ -149,7 +149,7 @@
             this.skinButton2.Name = "skinButton2";
             this.skinButton2.NormlBack = null;
             this.skinButton2.Size = new System.Drawing.Size(74, 39);
-            this.skinButton2.TabIndex = 3;
+            this.skinButton2.TabIndex = 7;
             this.skinButton2.Text = "确 定";
             this.skinButton2.UseVisualStyleBackColor = false;
             this.skinButton2.Click += new System.EventHandler(this.skinButton2_Click);
@@ -164,7 +164,7 @@
             this.skinButton3.Name = "skinButton3";
             this.skinButton3.NormlBack = null;
             this.skinButton3.Size = new System.Drawing.Size(74, 39);
-            this.skinButton3.TabIndex = 3;
+            this.skinButton3.TabIndex = 8;
             this.skinButton3.Text = "退 出";
             this.skinButton3.UseVisualStyleBackColor = false;
             this.skinButton3.Click += new System.EventHandler(this.skinButton3_Click);
@@ -190,7 +190,7 @@
             this.cbZhuangTaii.Location = new System.Drawing.Point(107, 164);
             this.cbZhuangTaii.Name = "cbZhuangTaii";
             this.cbZhuangTaii.Size = new System.Drawing.Size(121, 27);
-            this.cbZhuangTaii.TabIndex = 1;
+            this.cbZhuangTaii.TabIndex = 5;
             this.cbZhuangTaii.WaterText = "";
             // 
             // skinButton1
@@ -203,7 +203,7 @@
             this.skinButton1.Name = "skinButton1";
             this.skinButton1.NormlBack = null;
             this.skinButton1.Size = new System.Drawing.Size(51, 26);
-            this.skinButton1.TabIndex = 3;
+            this.skinButton1.TabIndex = 4;
             this.skinButton1.Text = "修改";
             this.skinButton1.UseVisualStyleBackColor = false;
             this.skinButton1.Click += new System.EventHandler(this.skinButton1_Click);

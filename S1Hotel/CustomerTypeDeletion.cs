@@ -46,7 +46,7 @@ namespace S1Hotel
 												where Grade ='{0}'", cbLeiXing.Text);
                 if (db.GetSingleIntValue(sql) > 0)
                 {
-                    MessageBox.Show("还有该类型的顾客，要删除您请先修改顾客类型！");
+                    MessageBox.Show("还有该类型的顾客，要删除您请先修改顾客类型！","提示");
                     return;
                 }
             }

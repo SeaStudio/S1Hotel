@@ -193,7 +193,7 @@ namespace S1Hotel
                     values('{0}','{1}','{2}','{3}')", sj, tbJinE.Text, tbShenFenZheng.Text, "新开会员");
                         if (db.ExecuteSQLCommand(sql) == 0)
                         {
-                            MessageBox.Show("新增到充值记录表中失败！");
+                            MessageBox.Show("新增到充值记录表中失败！","提示");
                         }
 
                     }
